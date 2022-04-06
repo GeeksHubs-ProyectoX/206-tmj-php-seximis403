@@ -1,0 +1,17 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "7.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Matcher\\": "src",
+      "Matcher\\Test\\": "test"
+    },
+    "test": [
+        "phpunit test"
+    ],
+    "config":{
+      "optimize-autoloader": true
+    }
+  }
+}
